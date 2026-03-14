@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 
 
-df = pd.read_csv('/Users/4c/Desktop/GHQ/data/loto7hh_4580_k21.csv')
+df = pd.read_csv('/data/loto7hh_4580_k21.csv')
 print()
 print(df)
 print()
@@ -46,7 +46,7 @@ print()
 
 from itertools import combinations
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4580_k21.csv"
+CSV_PATH = "/data/loto7hh_4580_k21.csv"
 
 SEED = 39
 np.random.seed(SEED)
@@ -155,39 +155,11 @@ def main():
     1: count= 773, freq=0.024111
     2: count= 817, freq=0.025483
     3: count= 820, freq=0.025577
-    4: count= 803, freq=0.025047
-    5: count= 820, freq=0.025577
-    6: count= 807, freq=0.025172
-    7: count= 835, freq=0.026045
+    
     8: count= 901, freq=0.028104
-    9: count= 834, freq=0.026014
-    10: count= 838, freq=0.026138
-    11: count= 849, freq=0.026482
-    12: count= 805, freq=0.025109
-    13: count= 821, freq=0.025608
-    14: count= 796, freq=0.024828
-    15: count= 791, freq=0.024672
-    16: count= 824, freq=0.025702
-    17: count= 755, freq=0.023550
-    18: count= 812, freq=0.025328
-    19: count= 802, freq=0.025016
-    20: count= 758, freq=0.023643
-    21: count= 823, freq=0.025671
-    22: count= 843, freq=0.026294
+    
     23: count= 898, freq=0.028010
-    24: count= 826, freq=0.025764
-    25: count= 833, freq=0.025983
-    26: count= 865, freq=0.026981
-    27: count= 778, freq=0.024267
-    28: count= 812, freq=0.025328
-    29: count= 838, freq=0.026138
-    30: count= 777, freq=0.024236
-    31: count= 818, freq=0.025515
-    32: count= 850, freq=0.026513
-    33: count= 843, freq=0.026294
-    34: count= 862, freq=0.026887
-    35: count= 835, freq=0.026045
-    36: count= 779, freq=0.024298
+    
     37: count= 853, freq=0.026606
     38: count= 828, freq=0.025827
     39: count= 838, freq=0.026138
@@ -245,7 +217,7 @@ def main():
     print()
     """
     Predikcija sledeće kombinacije (deterministički):
-    Kombinacija: (8, 11, 22, 23, 26, 33, 34)
+    Kombinacija: (8, 11, x, y, z, 33, 34)
     Score: 9230.0
     """
 
